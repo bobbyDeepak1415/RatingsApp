@@ -5,7 +5,11 @@ import "bootstrap/dist/css/bootstrap.css";
 // import React from 'react';
 class App extends Component {
   render() {
-    return <Movies />;
+    return
+    <>
+      <h2>Hello</h2>
+    <Movies />;
+      </>  
   }
 }
 export default App;
